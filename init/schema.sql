@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS BOOKS (
+  "id" TEXT NOT NULL PRIMARY KEY,
+  "title" TEXT NOT NULL,
+  "author" TEXT NOT NULL,
+  "total_chapters" INTEGER NOT NULL,
+  "read_chapters" INTEGER NOT NULL
+);
